@@ -448,7 +448,7 @@ nav a {
 
 .comments {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--s4);
     width: 100%;
 }
@@ -510,7 +510,7 @@ nav a {
     width: 100%;
     max-width: 1200px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--s4);
 }
 .loc-info {
@@ -553,12 +553,13 @@ nav a {
     padding: var(--s0) var(--s2);
     background: var(--brown);
     color: var(--white);
+    overflow: hidden;
 }
 .contact-container {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--s0);
 }
 .contact h3 {
@@ -602,6 +603,10 @@ nav a {
     display: flex;
     flex-direction: column;
     gap: var(--s3);
+}
+.contact-right h3{
+    font-family: var(--font-display);
+    font-size: var(--s7);
 }
 .contact-right p { color: rgba(255,255,255,0.75); }
 .nl-form {
