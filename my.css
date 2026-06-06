@@ -202,7 +202,7 @@ nav a {
 .hero {
   background: 
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url(./cakes/img-2.jpg) center/cover no-repeat; 
+    url(./cakes/Hero.webp) center/cover no-repeat; 
     padding: var(--s2);
     display: flex;
     flex-direction: column;
@@ -368,7 +368,7 @@ nav a {
     color: var(--brown);
 }
 .about-img {
-    background: url(./cakes/woman-pouring-dough-medium-shot.jpg);
+    background: url(./cakes/woman-pouring-dough-medium-shot.webp);
     background-size: cover;
     background-position: center;
     flex: 1;
@@ -550,7 +550,7 @@ nav a {
     CONTACT
 -----------------------------------------------*/
 .contact {
-    padding: var(--s0) var(--s2);
+    padding:  var(--s2);
     background: var(--brown);
     color: var(--white);
     overflow: hidden;
